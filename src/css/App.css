@@ -1,0 +1,39 @@
+html {
+    /* background-color: #f1f1f1; */
+    background-image: url('../assets/img_background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 0.1em;
+    color: #111725;
+}
+
+.pageContainer {
+    z-index: 0;
+    text-align: center;
+}
+
+.heading {
+    margin: 0 auto;
+    padding: 0.5% 0 0%;
+}
+
+h1 {
+    padding: 1% 0 0;
+    letter-spacing: 0.9em;
+    font-size: 2rem;
+}
+
+.footer {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 11% 0 1.5%;
+    background-color: #c4c6c8;
+}

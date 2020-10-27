@@ -1,0 +1,42 @@
+.gameGrid_OFF {
+    background-image: 
+        linear-gradient(#111725 1px, transparent 1px), 
+        linear-gradient(90deg, #111725 1px, transparent 1px);
+    position: relative;
+    margin: 0 auto;
+    background-color: #111725;
+}
+
+.gameGrid_ON {
+    background-image: 
+        linear-gradient(rgb(138, 138, 138) 0.1px, transparent 1px), 
+        linear-gradient(90deg, rgb(138, 138, 138) 0.1px, transparent 1px);
+    position: relative;
+    margin: 0 auto;
+    background-color: #111725;
+}
+
+.CellStyle {
+    background: #daaa52;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 31.3%;
+    margin: 0 auto;
+    padding: 1.5%;
+}
+
+.button {
+    width: 20%;
+    background-color: #111725;
+    border-color: #111725;
+    color: #f1f1f1;
+    font-size: large;
+}
+
+.show-grid {
+    font-size: medium;
+}
