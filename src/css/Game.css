@@ -5,6 +5,8 @@
     position: relative;
     margin: 0 auto;
     background-color: #111725;
+    border-radius: 0.5%;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 .gameGrid_ON {
@@ -14,6 +16,8 @@
     position: relative;
     margin: 0 auto;
     background-color: #111725;
+    border-radius: 0.5%;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 .CellStyle {
@@ -23,18 +27,29 @@
 
 .buttons {
     display: flex;
-    justify-content: space-between;
-    width: 31.3%;
-    margin: 0 auto;
-    padding: 1.5%;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 3%;
+    padding: 3% 0 3%;
+    filter: drop-shadow(0 0 0.33rem gray);
 }
 
 .button {
-    width: 20%;
+    width: 8.5rem;
+    height: 2.5rem;
     background-color: #111725;
     border-color: #111725;
+    border-radius: 6%;
     color: #f1f1f1;
-    font-size: large;
+    font-size: 1rem;
+}
+
+.button:hover {
+    color: #daaa52;
+    animation-timing-function: linear;
+    transform: translateY(-0.15rem);
 }
 
 .show-grid {

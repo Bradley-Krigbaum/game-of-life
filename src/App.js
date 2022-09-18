@@ -16,11 +16,6 @@ class App extends React.Component {
                     <div className="gameScreen">
                         <Game />
                     </div>
-                    <div className="footer">
-                        <div className="copyright">
-                            <span> &copy;2020 Bradley Krigbaum</span>
-                        </div>
-                    </div>
                 </div>
             </>
         )
