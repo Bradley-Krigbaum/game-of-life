@@ -23,6 +23,7 @@ html {
 }
 
 h1 {
+    font-weight: 300;
     padding: 1% 0 0;
     letter-spacing: 0.9em;
     font-size: 2rem;

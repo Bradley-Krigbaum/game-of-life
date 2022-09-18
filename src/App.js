@@ -13,9 +13,7 @@ class App extends React.Component {
                     <div className="heading">
                         <h1>GAME OF LIFE</h1>
                     </div>
-                    <div className="gameScreen">
-                        <Game />
-                    </div>
+                    <Game />
                 </div>
             </>
         )
